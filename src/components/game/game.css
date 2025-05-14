@@ -1,14 +1,17 @@
 ul {
-  padding-inline-start: 20px;
+  padding-inline-start: 1.25rem;
 }
 
 .game-info {
   display: flex;
+  align-items: center;
   flex-direction: column;
-  margin-top: 20px;
+  row-gap: 0.5rem;
+  margin-top: 1.25rem;
 }
 
 .status {
+  font-size: 1.5rem;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
