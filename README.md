@@ -1,8 +1,52 @@
-# React + Vite
+# Tic Tac Toe app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Описание проекта
 
-Currently, two official plugins are available:
+Крестики-нолики — это простая игра для двух игроков на поле 3x3. В этой версии есть функция истории ходов, которая позволяет вернуться к любому предыдущему ходу и продолжить игру с этого момента. Это увлекательный способ исследовать разные варианты развития событий или исправить ошибку во время игры.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Навигация
+
+- [функции](#Функции)
+- [технологии](#Технологии)
+- [как запустить](#Как-запустить-локально)
+
+## Функции
+
+1. time travel.
+
+## Технологии
+
+- HTML
+- CSS
+- JavaScript
+- React
+
+## Как запустить локально
+
+1. Убедитесь, что у вас установлен Node.js и npm
+2. Клонируйте репозиторий:
+
+   ```bash
+   git clone https://github.com/boyra4483/tic-tac-toe-app
+
+   ```
+
+3. Перейдите в директорию проекта:
+
+   ```bash
+   cd tic-tac-toe-app
+
+   ```
+
+4. Установите зависимости
+
+   ```bash
+   npm install
+
+   ```
+
+5. Запустите приложение (cервер)
+   ```bash
+   npm run dev
+   ```
+6. Перейдите в браузер по адресу http://localhost:5173/ (если используется Vite).
